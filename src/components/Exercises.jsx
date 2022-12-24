@@ -1,5 +1,6 @@
 import { Box, Pagination, Stack, Typography } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { exerciseOptions, fetchData } from "../utils/fetchData";
 import ExerciseCard from "./ExerciseCard";
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
