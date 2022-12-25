@@ -34,6 +34,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
           exerciseOptions
         );
       }
+      setExercises(exerciseData);
     };
     fetchExercisesData();
   }, [bodyPart]);
