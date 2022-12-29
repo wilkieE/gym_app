@@ -42,8 +42,8 @@ const Detail = ({ exerciseDetail }) => {
           color="#4F4C4C"
         >
           Exercises keep you strong.{" "}
-          <span style={{ textTransform: "capitalize" }}>{name}</span> bup is one
-          of the best <br /> exercises to target your {target}. It will help you
+          <span style={{ textTransform: "capitalize" }}>{name}</span> is one of
+          the best <br /> exercises to target your {target}. It will help you
           improve your <br /> mood and gain energy.
         </Typography>
         {extraDetail?.map((item) => (
